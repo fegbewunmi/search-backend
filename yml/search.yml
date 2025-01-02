@@ -1,0 +1,24 @@
+summary: "Search towed vehicles in Illinois"
+description: "This is a simple API to do a keyword search for towed vehicles in Illinois"
+produces:
+  - "application/json"
+parameters:
+  - in: "query"
+    name: "q"
+    type: "string"
+    required: "true"
+responses:
+  200:
+    description: "Success"
+    schema:
+      type: "object"
+      properties:
+        data:
+          type: "object"
+        status:
+          type: "string"
+        message:
+          type: "string"
+
+  400:
+    description: "Bad Request"
