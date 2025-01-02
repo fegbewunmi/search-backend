@@ -48,6 +48,7 @@ for i in json_data:
             "style": i.get('style', " "),
             "color": i.get('color', " "),
             "plate": i.get('plate', " "),
+            "inventory_number": i.get('inventory_number', " "),
             "towed_to_address": i.get('towed_to_address', " "),
         }
         es.index(index=index_name, document=document)
