@@ -1,6 +1,6 @@
 # Towed vehicles Search backend
 
-Backend for towed (vehicle[https://github.com/fegbewunmi/search-ui])
+Backend for towed [vehicle](https://github.com/fegbewunmi/search-ui)
 Search bar ui using Flask and Elasticsearch
 
 The data is gotten from dataset of towed vehicles in Chicago
